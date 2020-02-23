@@ -167,6 +167,14 @@ h3 {
 
 .service-text {
   width: 240px;
+}
 
+.service-text p {
+  font-size: 12px;
+  line-height: 22px;
+  color: #767e9e;
+  font-family: "Lato";
+  font-weight: 400;
+  text-align: left;
 }
 
