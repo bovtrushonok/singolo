@@ -90,10 +90,33 @@ a {
   padding-right: 137px;
   box-sizing: border-box;
   z-index: 0;
+  position: relative;
 }
 
 .slider img {
   z-index: 2;
+}
+
+.arrow {
+  position: absolute;
+  z-index: 2;
+  display: inline-block;
+  margin-top: -17px;
+  cursor: pointer;
+}
+
+.arrow:hover {
+  background-color: gray;
+}
+
+.slider-left {
+  top: 50%;
+  left: 42px;
+}
+
+.slider-right {
+  top: 50%;
+  right: 40px;
 }
 
 .vertical {
@@ -108,15 +131,16 @@ a {
 
 .shadow-vertical {
   position: absolute;
-  top: 150px;
+  top: 50px;
   z-index: 1;
 }
 
 .shadow-horizontal {
   position: absolute;
+  top: -27px;
   margin: 0;
   z-index: 1;
-  transform: rotateY(90deg);
+  transform: rotateY(180deg);
 }
 
 .slider-bottom {
