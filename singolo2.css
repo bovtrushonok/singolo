@@ -1,0 +1,227 @@
+body {
+  margin: 0 auto;
+  width: 1020px;
+  font-family: "Lato";
+}
+
+.portfolio {
+  width: 100%;
+  height: 871px;
+  box-sizing: border-box;
+  background-color: #2d2f39;
+  border-bottom: 6px solid #313745;
+  padding: 5px 30px 0 30px;
+ 
+}
+
+h2 {
+  font-size: 30px;
+  letter-spacing: -0.2px;
+  line-height: 17px;
+  color: #666d89;
+  font-weight: 900;
+  text-align: left;
+  margin: 0;
+  padding: 65px 0 10px 10px; 
+}
+
+.portfolio p,
+.about p {
+  margin-bottom: 12px;
+  padding-left: 10px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #767e9e;
+  font-weight: 300;
+}
+
+.image-choice-block {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-start;
+  padding-left: 10px;  
+}
+
+.image-choice-button {
+  background-color: #2d2f39;
+  color: #767e9e;
+  font-size: 12px;
+  line-height: 21px;
+  letter-spacing: 0;
+  font-weight: 400;
+  border: 1px solid #4f5468;
+  border-radius: 6px;
+  padding: 0 6px;
+  margin-right: 10px;
+}
+
+.image-choice-button:hover,
+.image-choice-button:active {
+  color: #dedede;
+  cursor: pointer;
+  border: 1px solid #dedede;;
+}
+
+.portfolio-images-block {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  overflow: hidden;
+  padding-top: 18px;
+}
+
+.portfolio-image {
+  margin: 0 10px 20px;
+  background-color: #464b5e;
+  width: 220px;
+  height: 187px;
+}
+
+.img1 {
+  background-image: url("assets/img/portfolio1.png");
+  background-position: -5px -12px;
+}
+
+.img2 {
+  background-image: url("assets/img/portfolio2.png");
+  background-position: -80px -44px;
+}
+
+.img3 {
+  background-image: url("assets/img/portfolio3.png");
+  background-position: -10px -2px;
+}
+
+.img4 {
+  background-image: url("assets/img/portfolio4.png");
+  background-position: -23px -3px;
+}
+
+.img5 {
+  background-image: url("assets/img/portfolio5.png");
+  background-position: -7px -15px;
+}
+
+.img6 {
+  background-image: url("assets/img/portfolio6.png");
+  background-position: -15px -5px;
+}
+
+.img7 {
+  background-image: url("assets/img/portfolio7.png");
+  background-position: -29px -38px;
+}
+
+.img8 {
+  background-image: url("assets/img/portfolio8.png");
+  background-position: -25px -32px;
+}
+
+.img9 {
+  background-image: url("assets/img/portfolio9.png");
+  background-position: -15px -3px;
+}
+
+.img10 {
+  background-image: url("assets/img/portfolio10.png");
+  background-position: -139px -112px;
+}
+
+.img11 {
+  background-image: url("assets/img/portfolio11.png");
+  background-position: -145px -175px;
+}
+
+.img12 {
+  background-image: url("assets/img/portfolio12.png");
+  background-position: -35px -59px;
+}
+
+.about {
+  height: 737px;
+  width: 100%;
+  background-color: #f2f2f2;
+  padding: 3px 30px 0;
+  border-bottom: 6px solid #ffffff;
+  box-sizing: border-box;
+  
+}
+
+.team {
+  width: 100%;
+  height: 450px;
+  padding-top: 32px;
+  display: flex;
+  flex-flow: row wrap;
+  overflow: hidden;
+}
+
+.team-member {
+  width: 300px;
+  overflow: hidden;
+  margin: 0 10px;
+}
+
+.team-member-photo {
+  width: 300px;
+  height: 301px;
+}
+
+.member-one {
+  background-image: url("assets/img/photo1.png");
+  background-position: 1px 1px;
+  background-repeat: no-repeat;
+}
+
+.member-two {
+  background-image: url("assets/img/photo2.png");
+  background-position: 1px 1px;
+  background-repeat: no-repeat;
+}
+
+.member-three {
+  background-image: url("assets/img/photo3.png");
+  background-position: 1px 1px;
+  background-repeat: no-repeat;
+}
+
+.about h3 {
+  height: 18px;
+  font-size: 18px;
+  line-height: 18px;
+  color: #666d89;
+  font-weight: 900;
+  white-space: nowrap;
+ }
+
+.team-member p {
+  font-size: 12px;
+  line-height: 22px;
+  color: #767e9e;
+  font-weight: 400;
+  padding: 0;
+  margin: -8px 0;
+}
+
+.social-info {
+  width: 300px;
+  display: flex;
+  flex-flow: row nowrap;
+  margin-top: 32px;
+  align-items: flex-start;
+}
+
+.social-info img {
+  width: 31px;
+  height: 30px;
+  margin-right: 9px;
+}
+
+.social-info img:hover {
+  background-color: blue;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+
+
